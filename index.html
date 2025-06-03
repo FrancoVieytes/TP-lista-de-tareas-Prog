@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="contenedor">
+            <h1>Lista de Tareas</h1>
+            <div class="entrada">
+                <input type="text" id="tarea" placeholder="Escribí una tarea">
+                <button id="agregar">Agregar</button>
+            </div>
+
+            <div class="filtro">
+                <label for="filtro">Filtrar:</label>
+                <select id="filtro">
+                    <option value="todas">Todas</option>
+                    <option value="pendientes">Pendientes</option>
+                    <option value="completadas">Completadas</option>
+                </select>
+            </div>
+
+            <ul id="lista"></ul>
+        </div>
+
+        <script src="codigo.js"></script>
+    </main>
+
+</body>
+
+</html>
